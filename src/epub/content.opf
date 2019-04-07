@@ -29,11 +29,10 @@
 		<link href="onix.xml" rel="onix-record"/>
 		<dc:title id="title">Mindfulness in Plain English</dc:title>
 		<meta property="file-as" refines="#title">Mindfulness in Plain English</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">LOC_URL_1</meta>
-		<meta property="meta-auth" refines="#subject-2">LOC_URL_2</meta>
-		<meta property="se:subject">TAG</meta>
+		<dc:subject id="subject-1">Mindfulness</dc:subject>
+		<dc:subject id="subject-2">Meditation</dc:subject>
+		<meta property="meta-auth" refines="#subject-1">http://www.vipassana.com/meditation/mindfulness_in_plain_english.php</meta>
+		<meta property="meta-auth" refines="#subject-2">http://www.vipassana.com/meditation/mindfulness_in_plain_english.php</meta>
 		<dc:description id="description">DESCRIPTION</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description"> LONG_DESCRIPTION </meta>
@@ -41,7 +40,7 @@
 		<dc:language>LANG</dc:language>
 		<dc:source>PG_URL</dc:source>
 		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
-		<meta property="se:word-count">WORDCOUNT</meta>
+		<meta property="se:word-count">54203</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/ven-henepola-gunaratana_mindfulness-in-plain-english</meta>
 		<dc:creator id="author">Ven. Henepola Gunaratana</dc:creator>
@@ -58,9 +57,9 @@
 		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
 		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
+		<dc:contributor id="producer-1">Attila Szabo</dc:contributor>
 		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://github.com/szaboat/</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -75,8 +74,9 @@
 		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
-		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/about.xhtml" id="about.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/preface-introduction.xhtml" id="preface-introduction.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-1-meditation-why-bother.xhtml" id="chapter-1-meditation-why-bother.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-2-what-mediation-isnt.xhtml" id="chapter-2-what-mediation-isnt.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-3-what-meditation-is.xhtml" id="chapter-3-what-meditation-is.xhtml" media-type="application/xhtml+xml"/>
@@ -94,14 +94,12 @@
 		<item href="text/chapter-15-meditation-in-everyday-life.xhtml" id="chapter-15-meditation-in-everyday-life.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-16-whats-in-it-for-you.xhtml" id="chapter-16-whats-in-it-for-you.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/distribution-agreement.xhtml" id="distribution-agreement.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/about.xhtml" id="about.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/preface-introduction.xhtml" id="preface-introduction.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
 	</manifest>
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
-		<itemref idref="imprint.xhtml"/>
 		<itemref idref="about.xhtml"/>
 		<itemref idref="preface-introduction.xhtml"/>
 		<itemref idref="chapter-1-meditation-why-bother.xhtml"/>
@@ -121,6 +119,7 @@
 		<itemref idref="chapter-15-meditation-in-everyday-life.xhtml"/>
 		<itemref idref="chapter-16-whats-in-it-for-you.xhtml"/>
 		<itemref idref="distribution-agreement.xhtml"/>
+		<itemref idref="imprint.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
