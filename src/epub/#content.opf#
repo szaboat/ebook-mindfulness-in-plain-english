@@ -76,7 +76,6 @@
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-1-meditation-why-bother.xhtml" id="chapter-1-meditation-why-bother.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-2-what-mediation-isnt.xhtml" id="chapter-2-what-mediation-isnt.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/chapter-3-what-meditation-is.xhtml" id="chapter-3-what-meditation-is.xhtml" media-type="application/xhtml+xml"/>
@@ -101,7 +100,6 @@
 	</manifest>
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
-		<itemref idref="imprint.xhtml"/>
 		<itemref idref="about.xhtml"/>
 		<itemref idref="preface-introduction.xhtml"/>
 		<itemref idref="chapter-1-meditation-why-bother.xhtml"/>
